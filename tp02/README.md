@@ -1,4 +1,4 @@
-# [ENI] ANGULAR - TP01 : TodoList
+# [ENI] ANGULAR - TP02 : Pokemon
 
 Ce projet a été généré à l'aide de [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
 
