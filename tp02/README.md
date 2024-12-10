@@ -2,11 +2,11 @@
 
 Ce projet a été généré à l'aide de [Angular CLI](https://github.com/angular/angular-cli) version 19.0.4.
 
-## Objectif du TP :
+## Objectif du TP
 - Utiliser des services
 - Utiliser des composants
 
-## Énoncé :
+## Énoncé
 Afficher dans une première partie la liste des générations de Pokémon.  
 Dans une deuxième partie, afficher une liste de Pokémon sous forme de cartes contenant, pour chaque Pokémon : son nom, sa génération, une description et une image.
 
