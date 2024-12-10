@@ -1,0 +1,20 @@
+<div class="mb-8">
+  <h2 class="text-2xl">Pokemons</h2>
+  <!-- Ajout d'un container en mode grid -->
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+    @for(pokemon of pokemons; track $index) {
+      <div class="max-w-sm rounded overflow-hidden shadow-lg">
+        <img class="w-100" src="{{ pokemon.imgUrl }}" alt="Sunset in the mountains"> 
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">{{ pokemon.name }}</div>
+          <p class="text-gray-700 text-base">
+            {{pokemon.description}}
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Génération {{ pokemon.generation }}</span>
+        </div>
+      </div>
+    }
+  </div>
+</div>
